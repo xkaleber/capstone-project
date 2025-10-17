@@ -1,0 +1,81 @@
+Project Proposal: Trivia Game App - “Did you Know That?”
+
+Tech Stack
+Frontend (Mobile & Web):
+React: For building an interactive web application and ensuring a smooth and positive user experience across platforms.
+React Native: For developing a cross-platform mobile app.
+
+Backend:
+Node.js: For handling API requests, server-side logic and integration with the database
+
+Database:
+PostgreSQL: A robust relational database for storing user data, question banks, and other core information. 
+Redis: An in-memory database for caching frequently accessed data like leaderboards, helping to handle high traffic. 
+
+Hosting:
+Vercel or Netlifly
+Amazon Cloud or Google Cloud
+
+Focus of the Project
+“Did you know That?” will be an evenly focused full-stack application, implementing both frontend and backend components. 
+
+Project Type
+Mobile App: Cross-platform application for iOS and Android.
+Website: A web application accessible through modern browsers.
+
+Project Goal
+The goal of the project is to provide a dynamic, competitive, and fun trivia game for users to enjoy alone, or with groups of people.
+
+User Demographic
+The primary users of the app will be:
+
+Casual gamers: Individuals who enjoy variety games in their spare time.
+Trivia enthusiasts: Individuals who love trivia and knowledge games.
+Social gamers: Individuals who love to play interactive games with other people.
+
+Data and API
+Data: The content will include questions and answers from a variety of categories and 3 difficulty levels (Easy, Medium, Hard)
+Data Collection: Content will be delivered via the Open Trivia Database API to both mobile and app and website.
+
+Project Approach
+Database Schema
+Core Tables:
+Users: Stores information about users (User IDs, username, e-mail, password, registration date, last login)
+Categories: Organizing questions into different topics (Category IDs, category names)
+Questions: Contains the trivia questions themselves (Question IDs, Category IDs, Question Text, Difficulty Level)
+Answers: Stores the possible answers for each question (Answer IDs, Question IDs, Answer Text, Is Correct)
+User Quiz Attempts: Tracks each time a user attempts a quiz (Attempt ID, User ID, Category ID, Start Time, End Time, Score)
+
+Potential API Issues.
+Data Consistency: Making sure content is consistently delivered across platforms.
+Scalability: Handling increasing amounts of data and user requests efficiently.
+Error Handling: Managing and reporting API errors to ensure a smooth user experience.
+
+Sensitive Information: N/A
+
+Functionality
+Content Display: Users can view and select the different categories they want to play
+Core Gameplay: Variety of different categories, across 3 levels of difficulty (Easy, Medium, Hard)
+User Engagement: 
+User profiles to track progress and stats.
+Leaderboards to foster competition 
+
+User Flow
+Pregame:
+Welcome Screen: Displays featured categories and navigation options.
+
+Gameplay:
+Start Game: The game starts and the timer begins after a category is selected on the welcome screen. 
+Question Presentation: Users are presented with a question and a set of multiple choice answers.
+Answering: Users will select an answer.
+Feedback: The game immediately tells the user if their answer is correct or not, shows the correct answer, and provides an option to move to the next question.
+Next Question: The flow progresses to the next question, repeating the process.
+
+Post-Game:
+End of Game: After all questions are answered, the game ends.
+Results/Leaderboard: A results screen displays the user’s final score and shows the leaderboard with top performers.
+
+Stretch Goals
+Friends’ invitations and social media integration
+Reward System
+Team games where two teams choose a captain and go head to head.

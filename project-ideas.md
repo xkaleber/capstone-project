@@ -10,6 +10,3 @@
 3.) Sports trivia quiz game
 
     Create a sports trivia game that tests users' knowledge of sports, including questions on various sports, teams, players, and historical moments. 
-
-
- 
