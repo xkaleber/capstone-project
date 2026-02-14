@@ -62,7 +62,12 @@ Leaderboards to foster competition
 
 User Flow
 Pregame:
-Welcome Screen: Displays featured categories and navigation options.
+
+Welcome Screen: Displays login and registration options.
+If the user is registered, they will choose login and be sent to the login screen.
+If they are not registered, they will choose register and be sent to the registration screen.  After, registration, they will be sent to the login screen.
+After login, they will be shown 5 featured categories to choose and navigate to.
+After a category is chosen, the game will begin.
 
 Gameplay:
 Start Game: The game starts and the timer begins after a category is selected on the welcome screen. 
